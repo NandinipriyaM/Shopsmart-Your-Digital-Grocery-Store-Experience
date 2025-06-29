@@ -1,0 +1,62 @@
+Dashboard.css
+.dashboard {
+  padding: 20px;
+  margin-top: 10vh;
+  text-align: start;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Card styling */
+.card {
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card titles and text */
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Button alignment */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Space between multiple buttons */
+.button-container .btn {
+  margin-right: 10px;
+}
+
+/* Orange Button Styling */
+.orange-btn {
+  background-color: #f57c00 !important;
+  border-color: #f57c00 !important;
+  color: white !important;
+  transition: background-color 0.3s ease;
+}
+
+.orange-btn:hover {
+  background-color: #e65100 !important;
+  border-color: #e65100 !important;
+}
